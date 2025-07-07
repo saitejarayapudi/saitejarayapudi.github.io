@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, Download } from "lucide-react";
+import profileImage from "../assets/profilephoto.jpeg"
   
 const Hero = () => {
   const handleDownloadResume = () => {
@@ -16,7 +17,7 @@ const Hero = () => {
         <div className="flex-shrink-0">
           <div className="w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
             <img
-              src="/profilephoto.jpeg"
+              src={profileImage}
               alt="Profile"
               className="w-full h-full object-cover object-[center_100%] rounded-full"
             />
