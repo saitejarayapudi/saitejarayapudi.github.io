@@ -4,7 +4,7 @@ import profileImage from "../assets/profilephoto.jpeg"
 const Hero = () => {
   const handleDownloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/Sai-Rayapudi/Sai_Teja_Rayapudi_Resume.docx";
+    link.href = "/Sai_Teja_Rayapudi_Resume.docx";
     link.download = "Sai_Teja_Rayapudi_Resume.docx";
     document.body.appendChild(link);
     link.click();
